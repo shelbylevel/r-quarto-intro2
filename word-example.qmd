@@ -1,0 +1,35 @@
+# Word
+
+Click [HERE](https://catmailohio.sharepoint.com/:w:/s/CHSP-OAIPH/EWRJYuNEGgtIg9yUi_BAopEBN84hFtDKgD34ir-E7iOuig?e=RZ6Tq6) for an example Word document
+
+## Example YAML Statement
+
+```{r docx-yaml, eval = FALSE, include = TRUE}
+
+---
+title: "Title of Document"
+subtitle: "Subtitle of Document"
+author: "Ohio Alliance for Population Health"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format: 
+  docx:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    highlight-style: github
+    prefer-html: true
+    reference-doc: oaph-reference-doc.docx
+mainfont: "Georgia"
+bibliography: references.bib
+csl: APA Numeric Superscript Style.csl
+engine: knitr
+---
+  
+```
+
+## Create Your Own
+
+In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc) folder:
+
+1.  Download the file `oaph-reference-doc.docx`
+2.  Download the file `word-template.qmd` (to the same location/folder on your computer as the file above) and follow the instructions.

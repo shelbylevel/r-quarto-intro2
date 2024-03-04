@@ -1,0 +1,76 @@
+---
+title: "Title of Document"
+subtitle: "Subtitle of Document"
+author: 
+  - <br>
+  - <br>
+  - <br>
+  - __Prepared by__
+  - Ohio Alliance for Population Health
+  - <br>  
+  - Your Name
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+  - <br>
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format: 
+  docx:
+    toc: true  #true = table of contents, false = no table of contents
+    toc-depth: 3  #number/level of headers in table of contents
+    number-sections: true  #set to false for no section numbers
+    highlight-style: github
+    prefer-html: true
+    reference-doc: oaph-reference-doc.docx  #file comes from OneDrive folder
+mainfont: "Georgia"
+bibliography: references.bib  #will be created by your Zotero collection
+csl: APA Numeric Superscript Style.csl  #change based on your doc
+engine: knitr
+---
+
+# Header 1
+
+Hello! This is an example of a Word document. Write your text here.
+
+-   Key point
+-   Key point
+
+## Header 2
+
+Add a hyperlink [HERE](https://www.ohio.edu/chsp/alliance)
+
+__Bold Text__
+
+_Italicized Text_
+
+### Header 3
+
+Add a Zotero citation here @OhioAlliancePopulation2024.
+
+1.  Add citation to Zotero library (manually or using browser extension).
+2.  Copy citation key from info tab in Zotero and paste where you want citation located in document `example: @examplecitationkey2024`.
+3.  Right click name of collection on left side of Zotero window and select "Export Collection..."
+4.  Select Better BibTeX from dropdown menu (no selection under translator options) then click OK.
+5.  Rename to references.bib and save file to the same folder your .qmd (Quarto) document is in.
+6.  Go to the [Common Citation Styles](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EioRf1wJqjNCk6-CRi3DGrQBsBKFYnhjrOCLWMLQ1G-cjQ?e=1ZblD4) folder.
+    -   If the required citation style for your document is listed download the .csl file and move into the same folder your .qmd (Quarto) document is in. Skip steps 7-10.
+    -   If your required citation style is not listed in this folder follow steps 7-10 below.
+7.  Go to [Zotero Citation Repository](https://www.zotero.org/styles) and find the citation style required for your document (can use search bar).
+8.  Click the name of the citation style in blue text.
+9.  When asked "Add citation style to Zotero?" click cancel/no. This should cause a .csl file to download.
+10. Move this .csl file to the same folder your .qmd (Quarto) document is in.
+11. In your YAML statement at the top of the page change `csl:` to the name of the citation style .csl file. Example `csl: APA Numeric Superscript Style.csl`
+12. Click the "Render" button at the top of your R editor panel (below file name tab) and the Word app should be automatically opened with your document.
+
+__Note: References will automatically populate at the end of the document. Do not change anything below this in the `.qmd` file.__
+
+\newpage
+
+# References

@@ -1,0 +1,33 @@
+# Installation Instructions Mac/Apple
+
+## R and RStudio
+
+1.  Click [HERE](https://posit.co/download/rstudio-desktop/).
+
+2.  Click the blue "Download and Install R" button on the left.
+
+3.  Select the blue "Download R for MacOS."
+
+4.  If you don't know what chip your Mac has click the Apple logo in the top left corner of your menu bar (top of your screen) and select "About this Mac." Chip will either be M1/M2 or Intel.
+
+5.  Under the "Latest Release:" section find the type of Mac you have Apple Silicon (M1/M2) or older Intel and click the blue "R-XXXX.pkg" below it.
+
+6.  Install (drag) the file from your downloads folder into your applications folder.
+
+7.  Return to [THIS PAGE](https://posit.co/download/rstudio-desktop/).
+
+8.  Click the blue "Download RStudio Desktop for MacOS 12+" button on the right.
+
+9.  Install (drag) the file from your downloads folder into your applications folder.
+
+## Zotero
+
+1.  Click [HERE](https://www.zotero.org/).
+
+2.  Click the red download button.
+
+3.  Click the blue download button under "Zotero for Mac."
+
+4.  Install (drag) the file from your downloads folder into your applications folder.
+
+5.  Optional: click the blue "Install Browser Connector" button under "Zotero Connector" if you want the browser plugin to save articles from your browser to Zotero.

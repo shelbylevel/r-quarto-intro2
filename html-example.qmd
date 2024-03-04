@@ -1,0 +1,31 @@
+# HTML
+
+Click [HERE](https://catmailohio.sharepoint.com/:u:/s/CHSP-OAIPH/ESKUeSenSWBGj49pPyq47gwBnUVclCHGCmHIC8oNH7piGQ?e=AbG03o) for an example HTML document
+
+## Example YAML Statement
+
+```{r html-yaml, eval = FALSE, include = TRUE}
+
+---
+title: "Title of Document"
+subtitle: "Subtitle of Document"
+author: "Ohio Alliance for Population Health <br> Your Name"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format: 
+  html:
+    toc: true
+    toc-depth:
+    number-sections: false
+    toc-location: left
+    self-contained: true
+mainfont: "Georgia"
+bibliography: references.bib
+csl: "APA Numeric Superscript Style.csl"
+engine: knitr
+---
+  
+```
+
+## Create Your Own
+
+In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc) folder download the file `html-template.qmd` and follow the instructions.

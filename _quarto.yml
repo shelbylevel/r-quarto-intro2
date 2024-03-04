@@ -2,22 +2,28 @@ project:
   type: book
 
 book:
-  title: "r-quarto-intro2"
-  author: "Norah Jones"
-  date: "3/4/2024"
+  title: "Introduction to Quarto and Zotero Using RStudio"
+  author: "Ohio Alliance for Population Health <br> Shelby Level"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: "Installation Instructions"
+      chapters:
+      - installation-mac.qmd
+      - installation-windows.qmd
+    - part: "Document Examples"
+      chapters:
+      - html-example.qmd
+      - word-example.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: lux
   pdf:
     documentclass: scrreprt
+mainfont: 'Georgia'
 
 editor: visual
 

@@ -1,9 +1,25 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+## Statistical Application R
 
-See @knuth84 for additional discussion of literate programming.
+R is an open-source programming language for statistical computing and graphics. It is used by statisticians, researchers, and analysts for data analysis, visualization, and statistical modeling.
 
-```{r}
-1 + 1
-```
+For more information about R click [HERE](https://www.r-project.org/about.html).
+
+## RStudio
+
+RStudio is an integrated development environment designed for R, which is used for statistical computing and data analysis. RStudio provides a user-friendly interface that enhances the productivity of R users.
+
+For more information about RStudio click [HERE](https://www.geeksforgeeks.org/introduction-to-r-studio/).
+
+## Reference Management Application Zotero
+
+Zotero is a free and open-source reference management software designed to help researchers, students, and academics organize, manage, and cite bibliographic references and sources in their research projects. Zotero simplifies the process of collecting, organizing, and citing sources.
+
+For more information about Zotero click [HERE](https://libguides.cmich.edu/Zotero).
+
+## Quarto R Package 
+
+Quarto is an open-source publishing system built for creating reproducible presentations and reports. It allows use of code from programming languages, like R and Python directly in the document. This integration allows for the direct inclusion of data analysis, graphs and tables in the output document, making Quarto useful for statistical analysis, and academic research.
+
+For more information about Quarto click [HERE](https://quarto.org/docs/output-formats/all-formats.html)
