@@ -158,5 +158,38 @@
       "Document Examples",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Word</span>"
     ]
+  },
+  {
+    "objectID": "slide-example.html",
+    "href": "slide-example.html",
+    "title": "6  Presentation Slides",
+    "section": "",
+    "text": "6.1 Example YAML Statement\n---\ntitle: \"Title of Document\"\nsubtitle: \"Subtitle of Document\"\nauthor: \"Ohio Alliance for Population Health &lt;br&gt; Your Name\"\nformat: \n  revealjs:\n    logo: 'oaph-logo.png'\n    footer: '[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'\n    css: oaph-theme.css\nbibliography: \"references.bib\"\ncsl: \"APA Numeric Superscript Style.csl\"\n---",
+    "crumbs": [
+      "Document Examples",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presentation Slides</span>"
+    ]
+  },
+  {
+    "objectID": "slide-example.html#create-your-own",
+    "href": "slide-example.html#create-your-own",
+    "title": "6  Presentation Slides",
+    "section": "6.2 Create Your Own",
+    "text": "6.2 Create Your Own\nIn the Document Templates folder:\n\nDownload the file oaph-reference-doc.docx\nDownload the file slide-presentation-template.qmd (to the same location/folder on your computer as the file above) and follow the instructions.\n\nAdd link to beamer presentations",
+    "crumbs": [
+      "Document Examples",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presentation Slides</span>"
+    ]
+  },
+  {
+    "objectID": "slide-presentation-template.html",
+    "href": "slide-presentation-template.html",
+    "title": "7  Title of Document",
+    "section": "",
+    "text": "8 Slide 1 Title\nHello! This is an example of a slide presentation. Write your text here.\n\nMore information on the examples provided in these slides\nMore advanced examples of what you can include in your slides\nKey point\n\nAdd an Image:\n\n\n\n9 Slide 2 - Columns\nAdd a hyperlink HERE\n\n\nColumn 1\n\nBold Text\n\n\nColumn 2\n\nItalicized Text\n\n\n\n\n\n10 Zotero Citations\nUse {.smaller .scrollable} after slide/section title if text is too big or runs off slide\nAdd a Zotero citation here1.\n\nAdd citation to Zotero library (manually or using browser extension).\nCopy citation key from info tab in Zotero and paste where you want citation located in document example: @examplecitationkey2024.\nRight click name of collection on left side of Zotero window and select “Export Collection…”\nSelect Better BibTeX from dropdown menu (no selection under translator options) then click OK.\nRename to references.bib and save file to the same folder your .qmd (Quarto) document is in.\nGo to the Common Citation Styles folder.\n\nIf the required citation style for your document is listed download the .csl file and move into the same folder your .qmd (Quarto) document is in. Skip steps 7-10.\nIf your required citation style is not listed in this folder follow steps 7-10 below.\n\nGo to Zotero Citation Repository and find the citation style required for your document (can use search bar).\nClick the name of the citation style in blue text.\nWhen asked “Add citation style to Zotero?” click cancel/no. This should cause a .csl file to download.\nMove this .csl file to the same folder your .qmd (Quarto) document is in.\nIn your YAML statement at the top of the page change csl: to the name of the citation style .csl file. Example csl: APA Numeric Superscript Style.csl\nClick the “Render” button at the top of your R editor panel (below file name tab).\n\n\n\n11 Tables\n\nSimple TableAdvanced Table\n\n\n\n\n\nRight\nLeft\nDefault\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeader 1\nHeader 2\nHeader 3\n\n\n\n\nBold\n$1.23\n\nbullet 1\nbullet 2\n\n\n\nItalics\n1.23%\n\nstep 1\nstep 2\n\n\n\n\n\n\n\nFor more information and instructions on tables click HERE\n\n\n12 References\n\n\n\n\n1. The Ohio Alliance for Population Health. (2024). In Ohio University. https://www.ohio.edu/chsp/alliance.",
+    "crumbs": [
+      "Document Examples",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Title of Document</span>"
+    ]
   }
 ]

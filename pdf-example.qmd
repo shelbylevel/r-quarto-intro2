@@ -1,0 +1,5 @@
+
+
+## More Information
+
+[HERE](https://quarto.org/docs/output-formats/pdf-basics.html) are even more examples of what you can do with a PDF document!

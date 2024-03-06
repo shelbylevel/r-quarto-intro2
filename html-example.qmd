@@ -29,3 +29,7 @@ engine: knitr
 ## Create Your Own
 
 In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc) folder download the file `html-template.qmd` and follow the instructions.
+
+## More Information
+
+[HERE](https://quarto.org/docs/output-formats/html-basics.html) are even more examples of what you can do with an HTML document!
