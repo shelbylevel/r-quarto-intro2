@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ohio Alliance for Population Health   Your Name">
 
-<title>Introduction to Quarto and Zotero Using RStudio - 7&nbsp; Title of Document</title>
+<title>Introduction to Quarto and Zotero Using RStudio - 7&nbsp; PowerPoint Slides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -101,7 +114,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./html-example.html">Document Examples</a></li><li class="breadcrumb-item"><a href="./slide-presentation-template.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Title of Document</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./html-example.html">Document Examples</a></li><li class="breadcrumb-item"><a href="./ppt-example.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">PowerPoint Slides</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -190,8 +203,8 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slide-presentation-template.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Title of Document</span></span></a>
+  <a href="./ppt-example.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">PowerPoint Slides</span></span></a>
   </div>
 </li>
       </ul>
@@ -206,33 +219,24 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#slide-1-title" id="toc-slide-1-title" class="nav-link active" data-scroll-target="#slide-1-title"><span class="header-section-number">8</span> Slide 1 Title</a></li>
-  <li><a href="#slide-2---columns" id="toc-slide-2---columns" class="nav-link" data-scroll-target="#slide-2---columns"><span class="header-section-number">9</span> Slide 2 - Columns</a></li>
-  <li><a href="#zotero-citations" id="toc-zotero-citations" class="nav-link" data-scroll-target="#zotero-citations"><span class="header-section-number">10</span> Zotero Citations</a></li>
-  <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables"><span class="header-section-number">11</span> Tables</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">12</span> References</a></li>
+  <li><a href="#example-yaml-statement" id="toc-example-yaml-statement" class="nav-link active" data-scroll-target="#example-yaml-statement"><span class="header-section-number">7.1</span> Example YAML Statement</a></li>
+  <li><a href="#create-your-own" id="toc-create-your-own" class="nav-link" data-scroll-target="#create-your-own"><span class="header-section-number">7.2</span> Create Your Own</a></li>
+  <li><a href="#more-information" id="toc-more-information" class="nav-link" data-scroll-target="#more-information"><span class="header-section-number">7.3</span> More Information</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./html-example.html">Document Examples</a></li><li class="breadcrumb-item"><a href="./slide-presentation-template.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Title of Document</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./html-example.html">Document Examples</a></li><li class="breadcrumb-item"><a href="./ppt-example.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">PowerPoint Slides</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Title of Document</span></h1>
-<p class="subtitle lead">Subtitle of Document</p>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">PowerPoint Slides</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Ohio Alliance for Population Health <br> Your Name </p>
-          </div>
-  </div>
     
   
     
@@ -243,141 +247,37 @@ div.csl-indent {
 </header>
 
 
-<section id="slide-1-title" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> Slide 1 Title</h1>
-<p>Hello! This is an example of a slide presentation. Write your text here.</p>
-<ul>
-<li><a href="https://quarto.org/docs/presentations/revealjs/">More information on the examples provided in these slides</a></li>
-<li><a href="https://quarto.org/docs/presentations/revealjs/advanced.html">More advanced examples of what you can include in your slides</a></li>
-<li>Key point</li>
-</ul>
-<p><strong>Add an Image:</strong></p>
-<p><img src="oaph-logo-small.png" class="absolute" data-top="350" data-left="0" width="200" height="200"></p>
-</section>
-<section id="slide-2---columns" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> Slide 2 - Columns</h1>
-<p>Add a hyperlink <a href="https://www.ohio.edu/chsp/alliance">HERE</a></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Column 1</p>
-<ul>
-<li><strong>Bold Text</strong></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p>Column 2</p>
-<ul>
-<li><em>Italicized Text</em></li>
-</ul>
-</div>
+<p>Click <a href="https://catmailohio.sharepoint.com/:u:/s/CHSP-OAIPH/EcHNaRfELrNNlw_G663PFE8BpxgjXU1rTNAYI8yxDPzi9Q?e=bTx2Wd">HERE</a> for an example PowerPoint presentation.</p>
+<section id="example-yaml-statement" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="example-yaml-statement"><span class="header-section-number">7.1</span> Example YAML Statement</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"Title of Document"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>subtitle<span class="sc">:</span> <span class="st">"Subtitle of Document"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">"Ohio Alliance for Population Health &lt;br&gt; Your Name"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  revealjs<span class="sc">:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    logo<span class="sc">:</span> <span class="st">'oaph-logo.png'</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    footer<span class="sc">:</span> <span class="st">'[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    css<span class="sc">:</span> oaph<span class="sc">-</span>theme.css</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> <span class="st">"references.bib"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> <span class="st">"APA Numeric Superscript Style.csl"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="zotero-citations" class="level1 smaller scrollable" data-number="10">
-<h1 class="smaller scrollable" data-number="10"><span class="header-section-number">10</span> Zotero Citations</h1>
-<p>Use <code>{.smaller .scrollable}</code> after slide/section title if text is too big or runs off slide</p>
-<p>Add a Zotero citation here<span class="citation" data-cites="OhioAlliancePopulation2024"><sup><a href="#ref-OhioAlliancePopulation2024" role="doc-biblioref">1</a></sup></span>.</p>
+<section id="create-your-own" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="create-your-own"><span class="header-section-number">7.2</span> Create Your Own</h2>
+<p>In the <a href="https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc">Document Templates</a> folder:</p>
 <ol type="1">
-<li>Add citation to Zotero library (manually or using browser extension).</li>
-<li>Copy citation key from info tab in Zotero and paste where you want citation located in document <code>example: @examplecitationkey2024</code>.</li>
-<li>Right click name of collection on left side of Zotero window and select “Export Collection…”</li>
-<li>Select Better BibTeX from dropdown menu (no selection under translator options) then click OK.</li>
-<li>Rename to references.bib and save file to the same folder your .qmd (Quarto) document is in.</li>
-<li>Go to the <a href="https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EioRf1wJqjNCk6-CRi3DGrQBsBKFYnhjrOCLWMLQ1G-cjQ?e=1ZblD4">Common Citation Styles</a> folder.
-<ul>
-<li>If the required citation style for your document is listed download the .csl file and move into the same folder your .qmd (Quarto) document is in. Skip steps 7-10.</li>
-<li>If your required citation style is not listed in this folder follow steps 7-10 below.</li>
-</ul></li>
-<li>Go to <a href="https://www.zotero.org/styles">Zotero Citation Repository</a> and find the citation style required for your document (can use search bar).</li>
-<li>Click the name of the citation style in blue text.</li>
-<li>When asked “Add citation style to Zotero?” click cancel/no. This should cause a .csl file to download.</li>
-<li>Move this .csl file to the same folder your .qmd (Quarto) document is in.</li>
-<li>In your YAML statement at the top of the page change <code>csl:</code> to the name of the citation style .csl file. Example <code>csl: APA Numeric Superscript Style.csl</code></li>
-<li>Click the “Render” button at the top of your R editor panel (below file name tab).</li>
+<li>Download the file <code>oaph-reference-doc.pptx</code></li>
+<li>Download the file <code>ppt-template.qmd</code> (to the same location/folder on your computer as the file above) and follow the instructions.</li>
 </ol>
 </section>
-<section id="tables" class="level1" data-number="11">
-<h1 data-number="11"><span class="header-section-number">11</span> Tables</h1>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Simple Table</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Advanced Table</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: right;">Right</th>
-<th style="text-align: left;">Left</th>
-<th>Default</th>
-<th style="text-align: center;">Center</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">12</td>
-<td style="text-align: left;">12</td>
-<td>12</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">123</td>
-<td style="text-align: left;">123</td>
-<td>123</td>
-<td style="text-align: center;">123</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
-<td>1</td>
-<td style="text-align: center;">1</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<table class="table">
-<colgroup>
-<col style="width: 22%">
-<col style="width: 22%">
-<col style="width: 26%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Header 1</th>
-<th>Header 2</th>
-<th>Header 3</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Bold</strong></td>
-<td>$1.23</td>
-<td><ul>
-<li>bullet 1</li>
-<li>bullet 2</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>Italics</em></td>
-<td>1.23%</td>
-<td><ol type="1">
-<li>step 1</li>
-<li>step 2</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<p>For more information and instructions on tables click <a href="https://dereksonderegger.github.io/570L/15-rmarkdown-tricks.html">HERE</a></p>
-</section>
-<section id="references" class="level1" data-number="12">
-<h1 data-number="12"><span class="header-section-number">12</span> References</h1>
+<section id="more-information" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="more-information"><span class="header-section-number">7.3</span> More Information</h2>
+<p><a href="https://quarto.org/docs/reference/formats/presentations/pptx.html">HERE</a> are even more examples of what you can do with a PowerPoint presentation!</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-OhioAlliancePopulation2024" class="csl-entry" role="listitem">
-1. The <span>Ohio Alliance</span> for <span>Population Health</span>. (2024). In <em>Ohio University</em>. https://www.ohio.edu/chsp/alliance.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->

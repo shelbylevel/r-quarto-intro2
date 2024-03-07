@@ -16,12 +16,13 @@ book:
       - html-example.qmd
       - word-example.qmd
       - slide-example.qmd
+      - ppt-example.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: lux
+    theme: cosmo
   pdf:
     documentclass: scrreprt
 mainfont: 'Georgia'

@@ -1,0 +1,33 @@
+# PowerPoint Slides
+
+Click [HERE](https://catmailohio.sharepoint.com/:u:/s/CHSP-OAIPH/EcHNaRfELrNNlw_G663PFE8BpxgjXU1rTNAYI8yxDPzi9Q?e=bTx2Wd) for an example PowerPoint presentation.
+
+## Example YAML Statement
+
+```{r ppt-yaml, eval = FALSE, include = TRUE}
+
+---
+title: "Title of Document"
+subtitle: "Subtitle of Document"
+author: "Ohio Alliance for Population Health <br> Your Name"
+format: 
+  revealjs:
+    logo: 'oaph-logo.png'
+    footer: '[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'
+    css: oaph-theme.css
+bibliography: "references.bib"
+csl: "APA Numeric Superscript Style.csl"
+---
+
+```
+
+## Create Your Own
+
+In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc) folder:
+
+1.  Download the file `oaph-reference-doc.pptx`
+2.  Download the file `ppt-template.qmd` (to the same location/folder on your computer as the file above) and follow the instructions.
+
+## More Information
+
+[HERE](https://quarto.org/docs/reference/formats/presentations/pptx.html) are even more examples of what you can do with a PowerPoint presentation!

@@ -1,4 +1,4 @@
-# Installation Instructions Windows
+# Windows Installation Instructions
 
 ## R and RStudio
 
