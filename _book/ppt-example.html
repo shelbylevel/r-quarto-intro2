@@ -163,13 +163,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./installation-mac.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installation Instructions Mac/Apple</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mac Installation Instructions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./installation-windows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Installation Instructions Windows</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Windows Installation Instructions</span></span></a>
   </div>
 </li>
       </ul>
@@ -247,30 +247,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Click <a href="https://catmailohio.sharepoint.com/:u:/s/CHSP-OAIPH/EcHNaRfELrNNlw_G663PFE8BpxgjXU1rTNAYI8yxDPzi9Q?e=bTx2Wd">HERE</a> for an example PowerPoint presentation.</p>
+<p>Click <a href="https://catmailohio.sharepoint.com/:p:/s/CHSP-OAIPH/EbmyP13wGChPgQtP_RJBcWUBT1vzuYRY5tRs0ITDyJ5dRg?e=kRzn2n">HERE</a> for an example PowerPoint presentation.</p>
 <section id="example-yaml-statement" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="example-yaml-statement"><span class="header-section-number">7.1</span> Example YAML Statement</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"Title of Document"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>subtitle<span class="sc">:</span> <span class="st">"Subtitle of Document"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">"Ohio Alliance for Population Health &lt;br&gt; Your Name"</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span> </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  revealjs<span class="sc">:</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    logo<span class="sc">:</span> <span class="st">'oaph-logo.png'</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    footer<span class="sc">:</span> <span class="st">'[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    css<span class="sc">:</span> oaph<span class="sc">-</span>theme.css</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> <span class="st">"references.bib"</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> <span class="st">"APA Numeric Superscript Style.csl"</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">'Prepared by Ohio Alliance for Population Health'</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">"`r format(Sys.time(), '%B %d, %Y')`"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span> </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  pptx<span class="sc">:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    logo<span class="sc">:</span> <span class="st">'slide-theme/oaph-logo.png'</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    footer<span class="sc">:</span> <span class="st">'[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    reference<span class="sc">-</span>doc<span class="sc">:</span> oaph<span class="sc">-</span>reference<span class="sc">-</span>doc.pptx  <span class="co">#file comes from OneDrive folder</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> references.bib  <span class="co">#will be created by your Zotero collection</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> APA Numeric Superscript Style.csl  <span class="co">#change based on your doc</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>engine<span class="sc">:</span> knitr</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="create-your-own" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="create-your-own"><span class="header-section-number">7.2</span> Create Your Own</h2>
-<p>In the <a href="https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc">Document Templates</a> folder:</p>
 <ol type="1">
-<li>Download the file <code>oaph-reference-doc.pptx</code></li>
-<li>Download the file <code>ppt-template.qmd</code> (to the same location/folder on your computer as the file above) and follow the instructions.</li>
+<li>In the <a href="https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8B_Y5Zj525ZbtHao5rAr0Rrw?e=bu87Q1">Document Templates</a> folder download the file <code>ppt-template.qmd</code></li>
+<li>In the <a href="https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EmO0szNa2BhPho1a1QuiM4IB4mcPiym2duQfqrWw6Bc1Xg?e=21ifa7">Branding Itmes</a> download the file <code>oaph-reference-doc.pptx</code> (to the same location/folder on your computer as the file above) and follow the instructions.</li>
 </ol>
 </section>
 <section id="more-information" class="level2" data-number="7.3">

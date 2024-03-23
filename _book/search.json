@@ -52,67 +52,67 @@
   {
     "objectID": "installation-mac.html",
     "href": "installation-mac.html",
-    "title": "2  Installation Instructions Mac/Apple",
+    "title": "2  Mac Installation Instructions",
     "section": "",
     "text": "2.1 R and RStudio",
     "crumbs": [
       "Installation Instructions",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation Instructions Mac/Apple</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mac Installation Instructions</span>"
     ]
   },
   {
     "objectID": "installation-mac.html#r-and-rstudio",
     "href": "installation-mac.html#r-and-rstudio",
-    "title": "2  Installation Instructions Mac/Apple",
+    "title": "2  Mac Installation Instructions",
     "section": "",
     "text": "Click HERE.\nClick the blue “Download and Install R” button on the left.\nSelect the blue “Download R for MacOS.”\nIf you don’t know what chip your Mac has click the Apple logo in the top left corner of your menu bar (top of your screen) and select “About this Mac.” Chip will either be M1/M2 or Intel.\nUnder the “Latest Release:” section find the type of Mac you have Apple Silicon (M1/M2) or older Intel and click the blue “R-XXXX.pkg” below it.\nInstall (drag) the file from your downloads folder into your applications folder.\nReturn to THIS PAGE.\nClick the blue “Download RStudio Desktop for MacOS 12+” button on the right.\nInstall (drag) the file from your downloads folder into your applications folder.",
     "crumbs": [
       "Installation Instructions",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation Instructions Mac/Apple</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mac Installation Instructions</span>"
     ]
   },
   {
     "objectID": "installation-mac.html#zotero",
     "href": "installation-mac.html#zotero",
-    "title": "2  Installation Instructions Mac/Apple",
+    "title": "2  Mac Installation Instructions",
     "section": "2.2 Zotero",
     "text": "2.2 Zotero\n\nClick HERE.\nClick the red download button.\nClick the blue download button under “Zotero for Mac.”\nInstall (drag) the file from your downloads folder into your applications folder.\nOptional: click the blue “Install Browser Connector” button under “Zotero Connector” if you want the browser plugin to save articles from your browser to Zotero.",
     "crumbs": [
       "Installation Instructions",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation Instructions Mac/Apple</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mac Installation Instructions</span>"
     ]
   },
   {
     "objectID": "installation-windows.html",
     "href": "installation-windows.html",
-    "title": "3  Installation Instructions Windows",
+    "title": "3  Windows Installation Instructions",
     "section": "",
     "text": "3.1 R and RStudio",
     "crumbs": [
       "Installation Instructions",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Installation Instructions Windows</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Windows Installation Instructions</span>"
     ]
   },
   {
     "objectID": "installation-windows.html#r-and-rstudio",
     "href": "installation-windows.html#r-and-rstudio",
-    "title": "3  Installation Instructions Windows",
+    "title": "3  Windows Installation Instructions",
     "section": "",
     "text": "Click HERE.\nClick the blue “Download and Install R” button on the left.\nUnder the base subdirectory click the blue “install R for the first time.”.\nSelect the blue “Download R-X.X.X for Windows” at the top of the screen.\nInstall the file from your downloads folder.\nReturn to THIS PAGE.\nClick the blue “Download RStudio Desktop for Windows 10/11” button on the right.\nInstall the file from your downloads folder.",
     "crumbs": [
       "Installation Instructions",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Installation Instructions Windows</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Windows Installation Instructions</span>"
     ]
   },
   {
     "objectID": "installation-windows.html#zotero",
     "href": "installation-windows.html#zotero",
-    "title": "3  Installation Instructions Windows",
+    "title": "3  Windows Installation Instructions",
     "section": "3.2 Zotero",
     "text": "3.2 Zotero\n\nClick HERE.\nClick the red download button.\nClick the blue download button under “Zotero for Windows.”\nInstall the file from your downloads folder.\nOptional: click the blue “Install Browser Connector” button under “Zotero Connector” if you want the browser plugin to save articles from your browser to Zotero.",
     "crumbs": [
       "Installation Instructions",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Installation Instructions Windows</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Windows Installation Instructions</span>"
     ]
   },
   {
@@ -164,7 +164,7 @@
     "href": "word-example.html#create-your-own",
     "title": "5  Word",
     "section": "5.2 Create Your Own",
-    "text": "5.2 Create Your Own\nIn the Document Templates folder:\n\nDownload the file oaph-reference-doc.docx\nDownload the file word-template.qmd (to the same location/folder on your computer as the file above) and follow the instructions.",
+    "text": "5.2 Create Your Own\n\nIn the Document Templates folder download the file word-template.qmd\nIn the Branding Itmes download the file oaph-reference-doc.docx (to the same location/folder on your computer as the file above) and follow the instructions.",
     "crumbs": [
       "Document Examples",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Word</span>"
@@ -197,7 +197,7 @@
     "href": "slide-example.html#create-your-own",
     "title": "6  Presentation Slides",
     "section": "6.2 Create Your Own",
-    "text": "6.2 Create Your Own\nIn the Document Templates folder:\n\nDownload the file oaph-reference-doc.docx\nDownload the file slide-presentation-template.qmd (to the same location/folder on your computer as the file above) and follow the instructions.\n\nAdd link to beamer presentations",
+    "text": "6.2 Create Your Own\n\nIn the Document Templates folder download the file slide-presentation-template.qmd\nIn the Branding Itmes download the file oaph-theme.css (to the same location/folder on your computer as the file above) and follow the instructions.",
     "crumbs": [
       "Document Examples",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presentation Slides</span>"
@@ -219,7 +219,7 @@
     "href": "ppt-example.html",
     "title": "7  PowerPoint Slides",
     "section": "",
-    "text": "7.1 Example YAML Statement\n---\ntitle: \"Title of Document\"\nsubtitle: \"Subtitle of Document\"\nauthor: \"Ohio Alliance for Population Health &lt;br&gt; Your Name\"\nformat: \n  revealjs:\n    logo: 'oaph-logo.png'\n    footer: '[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'\n    css: oaph-theme.css\nbibliography: \"references.bib\"\ncsl: \"APA Numeric Superscript Style.csl\"\n---",
+    "text": "7.1 Example YAML Statement\n---\ntitle: \"Title of Document\"\nsubtitle: \"Subtitle of Document\"\nauthor: 'Prepared by Ohio Alliance for Population Health'\ndate: \"`r format(Sys.time(), '%B %d, %Y')`\"\nformat: \n  pptx:\n    logo: 'slide-theme/oaph-logo.png'\n    footer: '[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'\n    reference-doc: oaph-reference-doc.pptx  #file comes from OneDrive folder\nbibliography: references.bib  #will be created by your Zotero collection\ncsl: APA Numeric Superscript Style.csl  #change based on your doc\nengine: knitr\n---",
     "crumbs": [
       "Document Examples",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>PowerPoint Slides</span>"
@@ -230,7 +230,7 @@
     "href": "ppt-example.html#create-your-own",
     "title": "7  PowerPoint Slides",
     "section": "7.2 Create Your Own",
-    "text": "7.2 Create Your Own\nIn the Document Templates folder:\n\nDownload the file oaph-reference-doc.pptx\nDownload the file ppt-template.qmd (to the same location/folder on your computer as the file above) and follow the instructions.",
+    "text": "7.2 Create Your Own\n\nIn the Document Templates folder download the file ppt-template.qmd\nIn the Branding Itmes download the file oaph-reference-doc.pptx (to the same location/folder on your computer as the file above) and follow the instructions.",
     "crumbs": [
       "Document Examples",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>PowerPoint Slides</span>"

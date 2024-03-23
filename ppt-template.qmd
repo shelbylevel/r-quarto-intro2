@@ -1,15 +1,15 @@
 ---
 title: "Title of Document"
 subtitle: "Subtitle of Document"
+author: 'Prepared by Ohio Alliance for Population Health'
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-author: "Ohio Alliance for Population Health <br> Your Name"
 format: 
-  revealjs:
-    logo: 'oaph-logo.png'
+  pptx:
+    logo: 'slide-theme/oaph-logo.png'
     footer: '[www.ohio.edu/chsp/alliance](https://www.ohio.edu/chsp/alliance)'
-    css: oaph-theme.css
-bibliography: "references.bib"
-csl: "APA Numeric Superscript Style.csl"
+    reference-doc: oaph-reference-doc.pptx  #file comes from OneDrive folder
+bibliography: references.bib  #will be created by your Zotero collection
+csl: APA Numeric Superscript Style.csl  #change based on your doc
 engine: knitr
 ---
 
@@ -17,17 +17,20 @@ engine: knitr
 
 Hello! This is an example of a slide presentation. Write your text here.
 
--   [More information on the examples provided in these slides](https://quarto.org/docs/presentations/revealjs/)
--   [More advanced examples of what you can include in your slides](https://quarto.org/docs/presentations/revealjs/advanced.html)
+-   [More information on the examples provided in these slides](https://quarto.org/docs/presentations/powerpoint.html)
 -   Key point
+
+# Side 2 - Image
 
 **Add an Image:**
 
-![](oaph-logo-small.png){.absolute top="350" left="0" width="200" height="200"}
+![](slide-theme/oaph-logo-small.png){.absolute top="350" left="0" width="200" height="200"}
 
-# Slide 2 - Columns
+# Slide 3 - Hyperlink
 
 Add a hyperlink [HERE](https://www.ohio.edu/chsp/alliance)
+
+# Slide 4 - Columns
 
 ::: columns
 ::: {.column width="50%"}
@@ -43,9 +46,9 @@ Column 2
 :::
 :::
 
-# Zotero Citations {.smaller .scrollable}
+# Zotero Citations 1
 
-Use `{.smaller .scrollable}` after slide/section title if text is too big or runs off slide
+If text is too big or runs off slide you can adjust in PPT after you render.
 
 Add a Zotero citation here @OhioAlliancePopulation2024.
 
@@ -57,6 +60,9 @@ Add a Zotero citation here @OhioAlliancePopulation2024.
 6.  Go to the [Common Citation Styles](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EioRf1wJqjNCk6-CRi3DGrQBsBKFYnhjrOCLWMLQ1G-cjQ?e=1ZblD4) folder.
     -   If the required citation style for your document is listed download the .csl file and move into the same folder your .qmd (Quarto) document is in. Skip steps 7-10.
     -   If your required citation style is not listed in this folder follow steps 7-10 below.
+
+# Zotero Citations 2
+
 7.  Go to [Zotero Citation Repository](https://www.zotero.org/styles) and find the citation style required for your document (can use search bar).
 8.  Click the name of the citation style in blue text.
 9.  When asked "Add citation style to Zotero?" click cancel/no. This should cause a .csl file to download.
@@ -64,30 +70,7 @@ Add a Zotero citation here @OhioAlliancePopulation2024.
 11. In your YAML statement at the top of the page change `csl:` to the name of the citation style .csl file. Example `csl: APA Numeric Superscript Style.csl`
 12. Click the "Render" button at the top of your R editor panel (below file name tab).
 
-# Tables
 
-::: panel-tabset
-## Simple Table
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|    12 | 12   | 12      |   12   |
-|   123 | 123  | 123     |  123   |
-|     1 | 1    | 1       |   1    |
-
-## Advanced Table
-
-+---------------+---------------+------------------+
-| Header 1      | Header 2      | Header 3         |
-+===============+===============+==================+
-| **Bold**      | \$1.23        | -   bullet 1     |
-|               |               | -   bullet 2     |
-+---------------+---------------+------------------+
-| *Italics*     | 1.23%         | 1.  step 1       |
-|               |               | 2.  step 2       |
-+---------------+---------------+------------------+
-:::
-
-For more information and instructions on tables click [HERE](https://dereksonderegger.github.io/570L/15-rmarkdown-tricks.html)
+__Note: References will automatically populate at the end of the document. Do not change anything below this in the `.qmd` file.__
 
 # References

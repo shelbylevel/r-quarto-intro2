@@ -1,6 +1,6 @@
 # Presentation Slides
 
-Click [HERE](https://catmailohio.sharepoint.com/:u:/s/CHSP-OAIPH/EcHNaRfELrNNlw_G663PFE8BpxgjXU1rTNAYI8yxDPzi9Q?e=bTx2Wd) for an example Slide Presentation document
+Click [HERE](https://shelbylevel.github.io/r-quarto-intro/) for an example Slide Presentation document
 
 ## Example YAML Statement
 
@@ -23,13 +23,8 @@ csl: "APA Numeric Superscript Style.csl"
 
 ## Create Your Own
 
-In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8BtM5yBr6-VQbXafZsS3wQ0Q?e=Q7INHc) folder:
-
-1.  Download the file `oaph-reference-doc.docx`
-2.  Download the file `slide-presentation-template.qmd` (to the same location/folder on your computer as the file above) and follow the instructions.
-
-
-Add link to beamer presentations
+1.  In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8B_Y5Zj525ZbtHao5rAr0Rrw?e=bu87Q1) folder download the file `slide-presentation-template.qmd`
+2.  In the [Branding Itmes](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EmO0szNa2BhPho1a1QuiM4IB4mcPiym2duQfqrWw6Bc1Xg?e=21ifa7) download the file `oaph-theme.css` (to the same location/folder on your computer as the file above) and follow the instructions.
 
 ## More Information
 
