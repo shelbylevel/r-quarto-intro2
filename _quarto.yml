@@ -1,6 +1,6 @@
 project:
   type: book
-
+  output-dir: docs
 book:
   title: "Introduction to Quarto and Zotero Using RStudio"
   author: "Ohio Alliance for Population Health <br> Shelby Level"
