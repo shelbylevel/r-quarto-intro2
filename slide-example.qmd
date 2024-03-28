@@ -31,7 +31,7 @@ csl: "APA Numeric Superscript Style.csl"
 ## Create Your Own
 
 1.  In the [Document Templates](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/ElBBCzi3jYxBu7QteV9B0F8B_Y5Zj525ZbtHao5rAr0Rrw?e=bu87Q1) folder download the file `slide-presentation-template.qmd`
-2.  In the [Branding Itmes](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EmO0szNa2BhPho1a1QuiM4IB4mcPiym2duQfqrWw6Bc1Xg?e=21ifa7) download the file `oaph-theme.css` (to the same location/folder on your computer as the file above) and follow the instructions.
+2.  In the [Branding Items](https://catmailohio.sharepoint.com/:f:/s/CHSP-OAIPH/EmO0szNa2BhPho1a1QuiM4IB4mcPiym2duQfqrWw6Bc1Xg?e=21ifa7) download the file `oaph-theme.css` (to the same location/folder on your computer as the file above) and follow the instructions.
 
 ## More Information
 

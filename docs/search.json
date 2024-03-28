@@ -197,7 +197,7 @@
     "href": "slide-example.html#create-your-own",
     "title": "6  Presentation Slides",
     "section": "6.2 Create Your Own",
-    "text": "6.2 Create Your Own\n\nIn the Document Templates folder download the file slide-presentation-template.qmd\nIn the Branding Itmes download the file oaph-theme.css (to the same location/folder on your computer as the file above) and follow the instructions.",
+    "text": "6.2 Create Your Own\n\nIn the Document Templates folder download the file slide-presentation-template.qmd\nIn the Branding Items download the file oaph-theme.css (to the same location/folder on your computer as the file above) and follow the instructions.",
     "crumbs": [
       "Document Examples",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presentation Slides</span>"
