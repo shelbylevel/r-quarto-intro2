@@ -1,6 +1,6 @@
 # HTML
 
-Click [HERE](https://catmailohio.sharepoint.com/:u:/s/CHSP-OAIPH/ESKUeSenSWBGj49pPyq47gwBnUVclCHGCmHIC8oNH7piGQ?e=AbG03o) for an example HTML document
+Click [HERE](https://shelbylevel.github.io/diabetes/) for an example HTML document
 
 ## Example YAML Statement
 

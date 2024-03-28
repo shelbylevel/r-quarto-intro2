@@ -1,6 +1,13 @@
+---
+resources:
+  - "slide-template.html"
+docs:
+  html: "slide-template.html"
+---
+
 # Presentation Slides
 
-Click [HERE](https://shelbylevel.github.io/r-quarto-intro/) for an example Slide Presentation document
+Click [HERE](https://shelbylevel.github.io/r-quarto-intro/#/title-slide) for an example of a slide presentation.
 
 ## Example YAML Statement
 
@@ -28,4 +35,4 @@ csl: "APA Numeric Superscript Style.csl"
 
 ## More Information
 
-[HERE](https://quarto.org/docs/output-formats/ms-word.html) are even more examples of what you can do with a slide presentation!
+[HERE](https://quarto.org/docs/presentations/revealjs/) are even more examples of what you can do with a slide presentation!
